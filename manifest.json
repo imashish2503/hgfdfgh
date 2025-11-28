@@ -1,67 +1,55 @@
 {
-	"format_version": 2,
-	"header": {
-		"description": "Created by @T1M0THYYT",
-		"name": "Night Vision v0.6.1 | Hotfix",
-		"uuid": "5c7c9f2c-5f5c-4faf-8e9e-2f5c1f2c5f5c",
-		"version": [
-			6,
-			1,
-			0
-		],
-		"min_engine_version": [
-			1,
-			20,
-			0
-		]
-	},
-	"modules": [
-		{
-			"description": "Night vision feature",
-			"type": "resources",
-			"uuid": "123e4567-e89b-12d3-a456-426614174001",
-			"version": [
-				1,
-				0,
-				0
-			]
-		}
-	],
-	"subpacks": [
-		{
-			"folder_name": "TopL",
-			"name": "Night Vision Menu Location (top left)",
-			"memory_tier": 0
-		},
-		{
-			"folder_name": "TopR",
-			"name": "Night Vision Menu Location (top right)",
-			"memory_tier": 0
-		},
-		{
-			"folder_name": "TopM",
-			"name": "Night Vision Menu Location (top middle)",
-			"memory_tier": 0
-		},
-		{
-			"folder_name": "BotL",
-			"name": "Night Vision Menu Location (bottom left)",
-			"memory_tier": 0
-		},
-		{
-			"folder_name": "BotR",
-			"name": "Night Vision Menu Location (bottom right)",
-			"memory_tier": 0
-		},
-		{
-			"folder_name": "BotM",
-			"name": "Night Vision Menu Location (bottom middle)",
-			"memory_tier": 0
-		},
-		{
-			"folder_name": "Centr",
-			"name": "Night Vision Menu Location (center)",
-			"memory_tier": 0
-		}
-	]
+  "format_version": 2,
+  "header": {
+    "name": "Night Vision Pack",
+    "description": "Night Vision resource pack",
+    "uuid": "779bb5f6-01d6-4819-9cde-dba5df8247eb",
+    "version": [6, 1, 0],
+    "min_engine_version": [1, 20, 0]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "description": "Night vision visual adjustments",
+      "uuid": "55ab2fca-535e-4a41-8cca-8ef6961d1543",
+      "version": [1, 0, 0]
+    }
+  ],
+  "subpacks": [
+    {
+      "folder_name": "TopL",
+      "name": "Night Vision Menu Location - top left",
+      "memory_tier": 0
+    },
+    {
+      "folder_name": "TopR",
+      "name": "Night Vision Menu Location - top right",
+      "memory_tier": 0
+    },
+    {
+      "folder_name": "TopM",
+      "name": "Night Vision Menu Location - top middle",
+      "memory_tier": 0
+    },
+    {
+      "folder_name": "BotL",
+      "name": "Night Vision Menu Location - bottom left",
+      "memory_tier": 0
+    },
+    {
+      "folder_name": "BotR",
+      "name": "Night Vision Menu Location - bottom right",
+      "memory_tier": 0
+    },
+    {
+      "folder_name": "BotM",
+      "name": "Night Vision Menu Location - bottom middle",
+      "memory_tier": 0
+    },
+    {
+      "folder_name": "Centr",
+      "name": "Night Vision Menu Location - center",
+      "memory_tier": 0
+    }
+  ]
 }

@@ -31,10 +31,7 @@
                 "fnsia@hud.k_t": {
                     "anchor_from": "top_middle",
                     "anchor_to": "top_middle",
-                    "offset": [
-                        47,
-                        0
-                    ]
+                    "offset": [47, 0]
                 }
             },
             {
@@ -57,10 +54,7 @@
     },
     "k_t": {
         "type": "input_panel",
-        "size": [
-            20,
-            20
-        ],
+        "size": [20, 20],
         "prevent_touch_input": true,
         "layer": 21,
         "controls": [
@@ -96,7 +90,7 @@
                     ],
                     "alpha": "$alpha",
                     "propagate_alpha": "$propagate_alpha",
-                    "variables":[
+                    "variables": [
                         {
                             "requires": "$mouse",
                             "$alpha": 0,
@@ -142,7 +136,7 @@
                     ],
                     "alpha": "$alpha",
                     "propagate_alpha": "$propagate_alpha",
-                    "variables":[
+                    "variables": [
                         {
                             "requires": "$mouse",
                             "$alpha": 0,
@@ -163,63 +157,28 @@
         "controls": [
             {
                 "nvd@common.empty_panel": {
-                    "size": [
-                        "100%+256px",
-                        "100%+256px"
-                    ],
+                    "size": ["100%+256px", "100%+256px"],
                     "controls": [
-                        {
-                            "nh@hud.nv_s": {}
-                        },
+                        {"nh@hud.nv_s": {}},
                         {
                             "nbh@hud.nvd": {
                                 "$b": "qifh",
-                                "$c1": [
-                                    1,
-                                    0,
-                                    0,
-                                    1
-                                ],
-                                "$c2": [
-                                    1,
-                                    0,
-                                    0,
-                                    1
-                                ]
+                                "$c1": [1, 0, 0, 1],
+                                "$c2": [1, 0, 0, 1]
                             }
                         },
                         {
                             "nhj@hud.nvd": {
                                 "$b": "ajdi",
-                                "$c1": [
-                                    0,
-                                    1,
-                                    0,
-                                    1
-                                ],
-                                "$c2": [
-                                    0,
-                                    1,
-                                    0,
-                                    1
-                                ]
+                                "$c1": [0, 1, 0, 1],
+                                "$c2": [0, 1, 0, 1]
                             }
                         },
                         {
                             "nkj@hud.nvd": {
                                 "$b": "1f3rc487n",
-                                "$c1": [
-                                    0,
-                                    0,
-                                    1,
-                                    1
-                                ],
-                                "$c2": [
-                                    0,
-                                    0,
-                                    1,
-                                    1
-                                ]
+                                "$c1": [0, 0, 1, 1],
+                                "$c2": [0, 0, 1, 1]
                             }
                         }
                     ]
@@ -229,10 +188,7 @@
     },
     "l@common.input_panel": {
         "prevent_touch_input": true,
-        "size": [
-            40,
-            20
-        ],
+        "size": [40, 20],
         "controls": [
             {
                 "l@common_toggles.light_ui_toggle": {
@@ -287,10 +243,7 @@
     "nv@common.empty_image": {
         "anchor_from": "$l",
         "anchor_to": "$l",
-        "size": [
-            180,
-            100
-        ],
+        "size": [180, 100],
         "texture": "textures/ui/dialog_background_hollow_3",
         "controls": [
             {
@@ -301,30 +254,17 @@
             {
                 "title": {
                     "type": "label",
-                    "text": "Night Vision Menu",
-                    "color": [
-                        0.3,
-                        0.3,
-                        0.3
-                    ],
-                    "size": [
-                        "default",
-                        20
-                    ],
+                    "text": "Night Vision Controls",
+                    "color": [0.3, 0.3, 0.3],
+                    "size": ["default", 20],
                     "anchor_from": "top_middle",
                     "anchor_to": "top_middle",
-                    "offset": [
-                        0,
-                        8
-                    ]
+                    "offset": [0, 8]
                 }
             },
             {
                 "bg@common.empty_image": {
-                    "size": [
-                        "100%-8px",
-                        "100%-8px"
-                    ],
+                    "size": ["100%-8px", "100%-8px"],
                     "layer": -1,
                     "alpha": 0.8,
                     "texture": "textures/ui/Black"
@@ -333,23 +273,14 @@
             {
                 "contnt": {
                     "type": "stack_panel",
-                    "offset": [
-                        10,
-                        26
-                    ],
+                    "offset": [10, 26],
                     "anchor_from": "top_left",
                     "anchor_to": "top_left",
-                    "size": [
-                        "default",
-                        "100%c"
-                    ],
+                    "size": ["default", "100%c"],
                     "controls": [
                         {
                             "imspfwuw": {
-                                "size": [
-                                    "100%",
-                                    20
-                                ],
+                                "size": ["100%", 20],
                                 "anchor_from": "top_left",
                                 "anchor_to": "top_left",
                                 "type": "stack_panel",
@@ -388,10 +319,7 @@
                         },
                         {
                             "imspfiwuw": {
-                                "size": [
-                                    "100%",
-                                    20
-                                ],
+                                "size": ["100%", 20],
                                 "anchor_from": "top_left",
                                 "anchor_to": "top_left",
                                 "type": "stack_panel",
@@ -399,10 +327,7 @@
                                 "controls": [
                                     {
                                         "1@common_toggles.light_text_toggle": {
-                                            "size": [
-                                                18,
-                                                18
-                                            ],
+                                            "size": [18, 18],
                                             "$button_mappings": [
                                                 {
                                                     "from_button_id": "button.menu_select",
@@ -456,10 +381,7 @@
                                     },
                                     {
                                         "2@common_toggles.light_text_toggle": {
-                                            "size": [
-                                                18,
-                                                18
-                                            ],
+                                            "size": [18, 18],
                                             "$button_mappings": [
                                                 {
                                                     "from_button_id": "button.menu_select",
@@ -512,18 +434,12 @@
                                     },
                                     {
                                         "3": {
-                                            "size": [
-                                                "100%c",
-                                                20
-                                            ],
+                                            "size": ["100%c", 20],
                                             "type": "panel",
                                             "controls": [
                                                 {
                                                     "text": {
-                                                        "offset": [
-                                                            0,
-                                                            -1
-                                                        ],
+                                                        "offset": [0, -1],
                                                         "type": "label",
                                                         "shadow": true,
                                                         "text": "#text",
@@ -576,19 +492,9 @@
         "renderer": "gradient_renderer",
         "type": "custom",
         "color2": "$c2",
-        "$c2|default": [
-            1,
-            1,
-            1,
-            1
-        ],
+        "$c2|default": [1, 1, 1, 1],
         "color1": "$c1",
-        "$c1|default": [
-            1,
-            1,
-            1,
-            1
-        ],
+        "$c1|default": [1, 1, 1, 1],
         "$b|default": "nightvision",
         "offset": "@hud.a",
         "bindings": [
@@ -602,23 +508,14 @@
     },
     "a": {
         "anim_type": "offset",
-        "from": [
-            1000,
-            0
-        ],
-        "to": [
-            0,
-            0
-        ],
+        "from": [1000, 0],
+        "to": [0, 0],
         "resettable": true,
         "easing": "out_quart",
         "duration": 0.5
     },
     "nv_s@common.empty_panel": {
-        "size": [
-            "100%",
-            "100%"
-        ],
+        "size": ["100%", "100%"],
         "controls": [
             {
                 "nv_s": {

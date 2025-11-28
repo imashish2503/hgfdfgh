@@ -4,16 +4,12 @@
         "$screen_content": "debug_screen.watermark_panel"
     },
     "watermark_panel": {
-        "size": [
-            "100%cm",
-            "100%"
-        ],
         "type": "stack_panel",
+        "size": ["100%cm", "100%"],
+        "layer": 32767,
         "use_child_anchors": true,
         "controls": [
-            {
-                "q@debug_screen.watermark": {}
-            },
+            {"q@debug_screen.watermark": {}},
             {
                 "x@debug_screen.helptext": {
                     "ignored": "($desktop_screen)"
@@ -25,13 +21,12 @@
                 }
             }
         ],
-        "layer": 32767,
         "anchor_from": "top_middle",
         "anchor_to": "top_middle"
     },
     "watermark": {
         "type": "label",
-        "text": "Night Vision Pack | Created by §b@T1M0THYYt",
+        "text": "Night Vision Pack • crafted by §b@T1M0THYYt",
         "font_scale_factor": 0.65,
         "propagate_alpha": true,
         "shadow": true,
@@ -41,7 +36,7 @@
     },
     "helptext": {
         "type": "label",
-        "text": "Press '§7N§f' to open the menu.",
+        "text": "Use §7N§f to open the menu.",
         "font_scale_factor": 0.5,
         "propagate_alpha": true,
         "shadow": true,
@@ -51,7 +46,7 @@
     },
     "helptext2": {
         "type": "label",
-        "text": "Press §7F8§f to open the menu. Arrow keys up and down to adjust brightness.",
+        "text": "Press §7F8§f for the menu and adjust brightness with the arrow keys.",
         "font_scale_factor": 0.5,
         "propagate_alpha": true,
         "shadow": true,
